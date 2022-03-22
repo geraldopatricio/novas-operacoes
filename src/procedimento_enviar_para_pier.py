@@ -23,7 +23,7 @@ for registro in registros:
     
     #update with date
     cmd_update = """
-        UPDATE jobs_operacoes
+        UPDATE NOMEDATABELA
         SET data_envio_api = now(),
         nome_arquivo = %s
         WHERE
