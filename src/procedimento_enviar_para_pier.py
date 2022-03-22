@@ -7,7 +7,7 @@ pier = Pier()
 
 cursor = db_servicos.connect()
 
-cmd = "SELECT id, idEstabelecimento, idOperacao, idProduto, mcc, flagoperacao FROM jobs_operacoes where data_envio_api is null"
+cmd = "SELECT id, idEstabelecimento, idOperacao, idProduto, mcc, flagoperacao FROM NOMEDATABELA where data_envio_api is null"
 
 cursor.execute(cmd)
 
